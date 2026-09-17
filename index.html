@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vellum 개인정보 처리방침</title>
+<meta name="description" content="Vellum 개인정보 처리방침 — 종단간 암호화 메신저. 이메일·전화번호·주소록·위치를 수집하지 않습니다.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔒</text></svg>">
+<style>
+  :root{
+    --bg:#ffffff; --bg-soft:#f9fafb; --bg-inset:#f3f4f6;
+    --border:#e5e7eb; --text:#16161a; --text-muted:#6b7280;
+    --primary:#3a76f0; --primary-weak:#eef3fe;
+    --danger:#b42318; --danger-weak:#fef3f2;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0e0e10; --bg-soft:#17171a; --bg-inset:#131316;
+      --border:#2a2a2e; --text:#e7e7ea; --text-muted:#8a8a91;
+      --primary:#5b8ef5; --primary-weak:#141a2a;
+      --danger:#ff6b5e; --danger-weak:#2a1414;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0e0e10; --bg-soft:#17171a; --bg-inset:#131316;
+    --border:#2a2a2e; --text:#e7e7ea; --text-muted:#8a8a91;
+    --primary:#5b8ef5; --primary-weak:#141a2a;
+    --danger:#ff6b5e; --danger-weak:#2a1414;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
+      "Noto Sans KR","Malgun Gothic",Segoe UI,Roboto,sans-serif;
+    font-size:16px; line-height:1.75;
+    word-break:keep-all; overflow-wrap:anywhere;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:56px 16px 96px}
+
+  header{margin-bottom:40px; padding-bottom:28px; border-bottom:1px solid var(--border)}
+  h1{font-size:1.9rem; line-height:1.3; margin:0 0 10px; letter-spacing:-.02em}
+  .updated{color:var(--text-muted); font-size:.875rem; margin:0}
+
+  .lede{
+    background:var(--primary-weak); border:1px solid var(--border);
+    border-radius:var(--radius); padding:18px 20px; margin:0 0 40px;
+  }
+  .lede p{margin:0}
+
+  h2{
+    font-size:1.2rem; letter-spacing:-.01em; margin:44px 0 12px;
+    padding-top:22px; border-top:1px solid var(--border);
+  }
+  h2:first-of-type{border-top:0; padding-top:0}
+  h3{font-size:1.02rem; margin:28px 0 8px}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px; padding-left:22px}
+  li{margin:6px 0}
+  strong{font-weight:700}
+  a{color:var(--primary)}
+
+  .note{
+    background:var(--bg-soft); border:1px solid var(--border);
+    border-left:3px solid var(--primary);
+    border-radius:var(--radius); padding:16px 18px; margin:20px 0;
+  }
+  .note.warn{border-left-color:var(--danger); background:var(--danger-weak)}
+  .note p:last-child{margin-bottom:0}
+
+  .table-scroll{overflow-x:auto; -webkit-overflow-scrolling:touch; margin:0 0 18px}
+  table{border-collapse:collapse; width:100%; min-width:520px; font-size:.9rem}
+  th,td{border:1px solid var(--border); padding:10px 12px; text-align:left; vertical-align:top}
+  th{background:var(--bg-inset); font-weight:700; white-space:nowrap}
+
+  .quote{
+    border-left:3px solid var(--border); margin:16px 0; padding:2px 0 2px 16px;
+    color:var(--text-muted); font-style:normal;
+  }
+  .contact{
+    background:var(--bg-soft); border:1px solid var(--border);
+    border-radius:var(--radius); padding:20px; margin-top:8px;
+  }
+  footer{
+    margin-top:56px; padding-top:22px; border-top:1px solid var(--border);
+    color:var(--text-muted); font-size:.85rem;
+  }
+  @media (max-width:520px){
+    .wrap{padding:36px 16px 72px}
+    h1{font-size:1.55rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Vellum 개인정보 처리방침</h1>
+  <p class="updated">최종 수정: 2026년 9월 17일</p>
+</header>
+
+<div class="lede">
+  <p>Vellum 은 대화 내용을 <strong>종단간 암호화</strong>합니다. 서버는 대화를 읽을 수 없고,
+  이메일·전화번호·주소록·위치를 <strong>수집하지 않습니다.</strong></p>
+</div>
+
+<h2>1. 수집하지 않는 것</h2>
+<p>다음은 <strong>받지도, 저장하지도, 요청하지도 않습니다.</strong></p>
+<ul>
+  <li>이메일 주소 · 전화번호</li>
+  <li>주소록 · 연락처 목록</li>
+  <li>위치 정보</li>
+  <li>광고 식별자 · 추적 식별자</li>
+  <li>사용 기록 분석(애널리틱스)</li>
+  <li>결제 정보</li>
+</ul>
+<p>계정은 <strong>초대 코드</strong>로만 만들어지며, 가입할 때 받는 것은 <strong>표시 이름 하나</strong>입니다.</p>
+
+<h2>2. 서버에 저장되는 것</h2>
+<p>서비스를 동작시키는 데 필요한 최소한만 둡니다.</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>무엇</th><th>왜 필요한가</th><th>얼마나</th></tr></thead>
+  <tbody>
+    <tr><td>계정 식별자(임의의 UUID) · 표시 이름 · 사용자 핸들(<code>이름#숫자4자리</code>) · 가입 시각</td><td>사용자를 찾고 구분하기 위해</td><td>계정을 지울 때까지</td></tr>
+    <tr><td>기기 식별자 · 공개키 · 인증 토큰의 <strong>해시값</strong></td><td>로그인과 암호화 세션 수립</td><td>계정을 지울 때까지</td></tr>
+    <tr><td>마지막 접속 시각</td><td>연결 상태 관리</td><td>계정을 지울 때까지</td></tr>
+    <tr><td>공개 암호키(prekey)</td><td>상대가 나에게 첫 메시지를 보낼 때 필요</td><td>사용되면 삭제</td></tr>
+    <tr><td>푸시 알림 토큰과 플랫폼(iOS/Android)</td><td>알림 전달</td><td>알림을 끄면 즉시 삭제</td></tr>
+    <tr><td>그룹 식별자와 <strong>멤버 목록</strong></td><td>그룹 기능</td><td>그룹이 없어질 때까지</td></tr>
+    <tr><td><strong>아직 전달하지 못한 메시지</strong>(암호문 · 보낸 기기 · 받는 기기 · 시각)</td><td>상대가 꺼져 있을 때 보관했다가 전달</td><td><strong>전달되면 즉시 삭제, 최대 3일</strong></td></tr>
+    <tr><td>알림을 끈 대화방 표시(<strong>뜻이 없는 임의의 숫자</strong>)</td><td>잠긴 기기 대신 서버가 알림을 걸러 주기 위해</td><td>설정을 바꿀 때까지</td></tr>
+    <tr><td><strong>신고 기록</strong>(누가 누구를 신고했는지와 시각)</td><td>신고를 접수하고 대응하기 위해</td><td>두 계정 중 하나가 삭제될 때까지</td></tr>
+    <tr><td>초대 코드와 사용 여부</td><td>가입 관문</td><td>만료되면 삭제(기본 24시간)</td></tr>
+  </tbody>
+</table>
+</div>
+<p><strong>인증 토큰은 원본이 아니라 해시값만</strong> 저장합니다.</p>
+
+<h2>3. 서버가 볼 수 없는 것</h2>
+<ul>
+  <li><strong>대화 내용과 첨부 파일</strong> — 종단간 암호화되어 보낸 사람과 받는 사람의 기기에서만 열립니다.</li>
+  <li><strong>프로필 사진과 표시 이름 변경</strong> — 서버를 거치지 않고 암호화된 채로 상대에게 전달됩니다.</li>
+  <li><strong>어떤 메시지가 어느 그룹의 것인지</strong> — 그룹 메시지도 1:1 과 똑같은 형태로 전송됩니다.</li>
+  <li><strong>대화방 이름 · 자동 삭제 설정 · 차단 목록 · 읽음 여부</strong> — 전부 기기에만 있습니다.</li>
+</ul>
+<div class="note">
+  <p>다만 <strong>정직하게 적어 둡니다.</strong> 서버는 <strong>누가 누구에게 언제 보냈는지</strong>(암호문의
+  송·수신 기기와 시각)와 <strong>그룹 멤버십</strong>은 알 수 있습니다. 내용은 알 수 없습니다.</p>
+</div>
+
+<h3>신고에 대해</h3>
+<p>다른 사용자를 신고하면 서버에는 <strong>“누가 누구를 신고했다”와 시각</strong>만 기록됩니다.</p>
+<div class="note warn">
+  <p><strong>대화 내용은 신고에 실리지 않습니다.</strong> 서버는 메시지를 읽을 수 없고, 신고를 위해
+  읽을 수 있게 만들지도 않았습니다. 운영자가 보는 것은 <strong>몇 명이 그 계정을 신고했는지</strong>뿐이며,
+  할 수 있는 조치는 그 계정을 삭제하는 것입니다.</p>
+</div>
+<p>신고한 사람과 신고당한 사람 중 <strong>어느 한쪽이라도 계정을 삭제하면 그 기록도 함께 사라집니다.</strong></p>
+
+<h2>4. 푸시 알림</h2>
+<p>알림에는 <strong>다음 문구 하나만</strong> 실립니다.</p>
+<p class="quote">새 메시지가 도착했습니다.</p>
+<p>보낸 사람도, 대화 내용도, 대화방 이름도 실리지 않습니다. 이 문구는 전달을 위해
+애플(APNs) 또는 구글(FCM) 서버를 지나갑니다.</p>
+<p>알림을 끄면 기기의 푸시 토큰을 <strong>서버에서 삭제</strong>합니다.</p>
+
+<h2>5. 기기에 저장되는 것</h2>
+<p>대화 기록·연락처·첨부 파일은 <strong>사용자 기기에만</strong> 저장되며, 통째로 암호화됩니다.</p>
+<ul>
+  <li>비밀번호에서 만든 키와 운영체제의 보안 영역(iOS 키체인 / Android 키스토어)이 <strong>둘 다</strong> 있어야 열립니다.</li>
+  <li><strong>자동 삭제</strong>가 기본으로 켜져 있습니다(기본 1일). 기한이 지나면 <strong>복호화 키를 파기</strong>하므로 복구할 수 없습니다.</li>
+  <li>기기에서 지운 대화는 <strong>되살릴 수 없습니다.</strong> 백업 기능이 없습니다.</li>
+</ul>
+
+<h2>6. 제3자 제공</h2>
+<ul>
+  <li>개인정보를 <strong>판매하거나 제공하지 않습니다.</strong></li>
+  <li>광고 · 분석 · 추적 도구를 <strong>사용하지 않습니다.</strong></li>
+  <li>사용하는 외부 서비스는 알림 전달을 위한 <strong>애플 APNs · 구글 FCM</strong> 뿐이며, 위 4항의 고정 문구만 지나갑니다.</li>
+</ul>
+
+<h2>7. 계정과 데이터 삭제</h2>
+<p>앱 안에서 <strong>설정 → 계정 초기화</strong>로 언제든 지울 수 있습니다. 누르면:</p>
+<ul>
+  <li>서버에서 계정 · 기기 · 공개키 · 전달 대기 중인 메시지 · 그룹 멤버십 · 알림 설정이 <strong>전부 삭제</strong>됩니다.</li>
+  <li>기기의 암호화된 대화 기록과 키도 함께 파기됩니다.</li>
+</ul>
+<p>별도로 요청할 필요가 없고, 되돌릴 수 없습니다.</p>
+
+<h2>8. 아동의 개인정보</h2>
+<p>만 13세 미만을 대상으로 하지 않으며, 해당 연령의 정보를 의도적으로 수집하지 않습니다.</p>
+
+<h2>9. 변경</h2>
+<p>이 방침이 바뀌면 이 문서를 갱신하고 최종 수정일을 바꿉니다.</p>
+
+<h2>10. 연락처</h2>
+<div class="contact">
+  <p>문의: <a href="mailto:ghdenro12@gmail.com">ghdenro12@gmail.com</a></p>
+</div>
+
+<footer>
+  <p>Vellum — 초대제 종단간 암호화 메신저</p>
+</footer>
+
+</div>
+</body>
+</html>
